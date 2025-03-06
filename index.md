@@ -40,9 +40,13 @@ body {
     max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-@media screen and (max-width: 1030px) {
+/* Large screens (1024px and below) */
+@media screen and (max-width: 1024px) {
     html {
-        font-size: 13px;
+        font-size: 14px;
+        zoom: 0.95;
+        -moz-transform: scale(0.95);
+        -moz-transform-origin: 0 0;
         overflow-x: hidden;
         width: 100%;
         position: relative;
@@ -62,36 +66,41 @@ body {
         padding: 0 10px;
     }
     
-    table {
-        max-width: 100%;
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
+    .project-image, .project-image2 {
+        width: 450px;
+        height: 450px;
+        max-width: 95%;
+        margin: 15px auto;
+        object-fit: cover;
+    }
+}
+
+/* Medium screens (768px and below) */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 13px;
+        zoom: 0.9;
+        -moz-transform: scale(0.9);
+        -moz-transform-origin: 0 0;
     }
     
     .project-image, .project-image2 {
         width: 400px;
         height: 400px;
         max-width: 90%;
-        margin: 15px auto;
-        object-fit: cover;
+    }
+}
+
+/* Small screens (480px and below) */
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 11px;
     }
     
-    h1 {
-        font-size: 2em;
-    }
-    h2 {
-        font-size: 1.5em;
-    }
-    h3 {
-        font-size: 1.2em;
-    }
-    p, li {
-        font-size: 0.9rem;
-    }
-    .project-button, .github-button {
-        padding: 6px 12px;
-        font-size: 0.9rem;
+    .project-image, .project-image2 {
+        width: 350px;
+        height: 350px;
+        max-width: 85%;
     }
 }
 
@@ -110,17 +119,17 @@ section {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 0.7em;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 1.8em;
     margin-bottom: 0.7em;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-bottom: 0.7em;
 }
 
