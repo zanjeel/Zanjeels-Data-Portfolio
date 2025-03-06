@@ -267,8 +267,8 @@ p, li {
 @media screen and (min-width: 1024px) and (max-width: 1249px) {
   body {
     overflow-x: hidden;
-    zoom: 0.8;
-    -moz-transform: scale(0.8);
+    zoom: 0.9;
+    -moz-transform: scale(0.9);
     -moz-transform-origin: 0 0;
   }
   
@@ -299,56 +299,6 @@ p, li {
   }
 }
 
-/* Small screens */
-@media screen and (max-width: 450px) {
-    html, body {
-        font-size: 12px;
-    }
-    
-    body {
-        padding: 40px 10px 0;
-    }
-    
-    h1 {
-        font-size: 1.6em;
-    }
-    
-    h2 {
-        font-size: 1.2em;
-    }
-    
-    h3 {
-        font-size: 1em;
-    }
-    
-    p, li {
-        font-size: 0.9rem;
-        line-height: 1.4;
-    }
-    
-    .project-button, .github-button {
-        padding: 5px 10px;
-        font-size: 0.8rem;
-        margin-top: 8px;
-        margin-right: 8px;
-    }
-    
-    .project-image, .project-image2 {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin: 15px auto;
-    }
-    
-    table {
-        font-size: 0.8rem;
-    }
-    
-    .project-separator {
-        margin: 20px 0;
-    }
-}
-
 /* Add to the style section */
 .project-separator {
     border: 0;
@@ -361,6 +311,101 @@ p, li {
 /* Add to the style section */
 table th {
     text-align: center;
+}
+
+/* Very small screens */
+@media screen and (max-width: 345px) {
+    html, body {
+        font-size: 11px;
+    }
+    
+    body {
+        padding: 30px 8px 0;
+    }
+    
+    h1 {
+        font-size: 1.4em;
+        margin-bottom: 0.5em;
+    }
+    
+    h2 {
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+    
+    h3 {
+        font-size: 0.9em;
+        margin-bottom: 0.5em;
+    }
+    
+    h4 {
+        font-size: 0.85em;
+        margin-bottom: 0.5em;
+    }
+    
+    p, li {
+        font-size: 0.8rem;
+        line-height: 1.3;
+        margin-bottom: 0.8em;
+    }
+    
+    .project-button, .github-button {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+        margin-top: 6px;
+        margin-right: 6px;
+        border-radius: 4px;
+    }
+    
+    .project-image, .project-image2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 12px auto;
+    }
+    
+    table {
+        font-size: 0.75rem;
+    }
+    
+    .project-separator {
+        margin: 15px 0;
+    }
+    
+    /* Skills section */
+    .skills li {
+        margin-bottom: 0.5em;
+    }
+    
+    /* Work Experience */
+    .work-experience li {
+        margin-bottom: 0.8em;
+    }
+    
+    /* Education */
+    .education-item {
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .education-item h3 {
+        font-size: 0.9em;
+        margin-bottom: 8px;
+    }
+    
+    /* Contact section */
+    .contact-info {
+        font-size: 0.8rem;
+    }
+    
+    /* Reduce spacing between sections */
+    section {
+        margin-bottom: 1.5em;
+    }
+    
+    hr {
+        margin: 1em 0;
+    }
 }
 </style>
 
