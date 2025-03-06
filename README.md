@@ -6,7 +6,7 @@ A compact online portfolio about my expertise in Machine Learning, AI, Data Scie
 A modern, responsive portfolio template designed specifically for data scientists and analysts. This template showcases your projects, skills, and experience in a clean, professional layout.
 
 ## 🌐 Live Demo
-View a live demo of this portfolio at: [https://zanjeel.github.io](https://zanjeel.github.io/Zanjeels-Data-Portfolio)
+View a live demo of this portfolio at: [https://zanjeel.github.io/Zanjeels-Data-Portfolio](https://zanjeel.github.io/Zanjeels-Data-Portfolio)
 
 ## ✨ Features
 
