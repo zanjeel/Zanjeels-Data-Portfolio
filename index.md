@@ -267,8 +267,8 @@ p, li {
 @media screen and (min-width: 1024px) and (max-width: 1249px) {
   body {
     overflow-x: hidden;
-    zoom: 0.9;
-    -moz-transform: scale(0.9);
+    zoom: 0.8;
+    -moz-transform: scale(0.8);
     -moz-transform-origin: 0 0;
   }
   
@@ -297,6 +297,56 @@ p, li {
     max-width: 85%;
     height: auto;
   }
+}
+
+/* Small screens */
+@media screen and (max-width: 450px) {
+    html, body {
+        font-size: 12px;
+    }
+    
+    body {
+        padding: 40px 10px 0;
+    }
+    
+    h1 {
+        font-size: 1.6em;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+    
+    p, li {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    
+    .project-button, .github-button {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        margin-top: 8px;
+        margin-right: 8px;
+    }
+    
+    .project-image, .project-image2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 15px auto;
+    }
+    
+    table {
+        font-size: 0.8rem;
+    }
+    
+    .project-separator {
+        margin: 20px 0;
+    }
 }
 
 /* Add to the style section */
