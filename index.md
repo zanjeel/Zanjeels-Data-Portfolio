@@ -45,11 +45,34 @@ body {
 table {
     width: 100%;
     max-width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    text-align: center;
+    padding: 10px;
+    word-break: break-word;
+    white-space: normal;
     display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    margin: 0 auto;
+    width: 100%;
+}
+
+/* Education section specific styles */
+.education-table {
+    border: none;
+}
+
+.education-table th, .education-table td {
+    border-bottom: 1px solid #e1e4e8;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    table th, table td {
+        display: table-cell;
+        width: auto;
+    }
 }
 
 /* Media Queries */
@@ -331,12 +354,13 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 ## Education
 
 | Degree | Institution | Year |
-|:------:|:----------:|:----:|
+{: .education-table}
+|:------|:------------|:-----|
+{: .education-table}
 | MSc., Data Science & Analytics | Brunel University London | Dec 2024 |
+{: .education-table}
 | BSc., Computer Science | FAST University | Sep 2023 |
-
-
-
+{: .education-table}
 
 ## Skills
 
