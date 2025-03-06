@@ -5,57 +5,101 @@ layout: default
 <style>
 /* Base styles for consistent sizing */
 html {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 18px;
+    -webkit-text-size-adjust: 100%;
+    zoom: 100%;
 }
 
 body {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
+    font-size: 18px;
 }
 
 /* Project image sizing */
 .project-image {
-    width: 400px;
-    height: 400px;
-    margin: 15px auto;
+    width: 500px;
+    height: 500px;
+    margin: 25px auto;
     display: block;
     object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
-    .project-image {
-        width: 300px;
-        height: 300px;
-    }
+.project-image2 {
+    width: 500px;
+    height: 500px;
+    margin: 25px auto;
+    display: block;
+    object-fit: cover;
 }
 
 /* Content sizing */
 .wrapper {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
+    min-width: 800px;
 }
 
 section {
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
+/* Heading sizes */
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+    font-size: 2.8em;
+    margin-bottom: 0.8em;
 }
 
 h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+    font-size: 2.3em;
+    margin-bottom: 0.8em;
+    margin-top: 1.5em;
 }
 
 h3 {
-    font-size: 1.75em;
-    margin-bottom: 0.5em;
+    font-size: 2em;
+    margin-bottom: 0.8em;
+}
+
+/* List and paragraph spacing */
+p, li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1em;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    
+    .project-image, .project-image2 {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .wrapper {
+        min-width: auto;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-image, .project-image2 {
+        width: 300px;
+        height: 300px;
+    }
+    
+    h1 { font-size: 2.2em; }
+    h2 { font-size: 1.8em; }
+    h3 { font-size: 1.5em; }
 }
 
 /* GitHub Profile Link Style */
