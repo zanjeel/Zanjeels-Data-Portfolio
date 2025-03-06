@@ -3,6 +3,19 @@ layout: default
 ---
 
 <style>
+/* Base styles for consistent sizing */
+html {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Project image sizing */
 .project-image {
     width: 400px;
     height: 400px;
@@ -16,6 +29,33 @@ layout: default
         width: 300px;
         height: 300px;
     }
+}
+
+/* Content sizing */
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
 }
 
 /* GitHub Profile Link Style */
@@ -69,44 +109,45 @@ layout: default
     background-color: #2f363d;
 }
 
+/* Education container styles */
 .education-container {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .education-item {
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 15px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
 }
 
 .education-item:hover {
-  transform: translateY(-2px);
+    transform: translateY(-2px);
 }
 
 .education-item h3 {
-  color: #0366d6;
-  margin: 0 0 10px 0;
-  font-size: 1.2em;
+    color: #0366d6;
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
 }
 
 .education-details {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #586069;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #586069;
 }
 
 .education-details .institution {
-  font-weight: 500;
-  margin: 0;
+    font-weight: 500;
+    margin: 0;
 }
 
 .education-details .year {
-  margin: 0;
-  font-style: italic;
+    margin: 0;
+    font-style: italic;
 }
 </style>
 
