@@ -5,9 +5,9 @@ layout: default
 <style>
 /* Base styles for consistent sizing */
 html {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
-    zoom: 1.2;
+    zoom: 1.1;
     overflow-x: hidden;
     width: 100%;
 }
@@ -16,7 +16,7 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 30px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     overflow-x: hidden;
     width: 100%;
 }
@@ -42,15 +42,31 @@ body {
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 16px;
-        zoom: 1;
+        font-size: 14px;
+        zoom: 0.9;
     }
     .project-image, .project-image2 {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
     }
     body {
-        padding: 0 20px;
+        padding: 0 15px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    p, li {
+        font-size: 1rem;
+    }
+    .project-button, .github-button {
+        padding: 6px 12px;
+        font-size: 0.9rem;
     }
 }
 
