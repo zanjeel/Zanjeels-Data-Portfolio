@@ -141,7 +141,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 ## Featured Projects
 
 ### 1. Voice-to-Voice LLM Assistant
-<img src="/assets/img/Voice-LLM.jpeg" class="project-image" alt="Voice Assistant">
+<img src="./assets/img/Voice-LLM.jpeg" class="project-image" alt="Voice Assistant">
 * **Description**: A conversational AI assistant that uses speech-to-text and text-to-speech capabilities, powered by Google's Gemini AI. Features real-time voice recording, processing, and witty responses in real time.
 
 * **Skills**: Python, Flask, React, Google Gemini AI, Speech Recognition, gTTS (Google Text to Speech)
@@ -154,7 +154,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 ### 2. Automobile Predictive Analysis
-<img src="/assets/img/Data-Analysis-Using-Machine-Learning.jpeg" class="project-image" alt="Automobile Analysis">
+<img src="./assets/img/Data-Analysis-Using-Machine-Learning.jpeg" class="project-image" alt="Automobile Analysis">
 * **Description**: Predictive analysis of automobile data using RStudio, focusing on price prediction and market trends.
 
 * **Skills**: R, Predictive Modeling, Data Visualization
@@ -167,7 +167,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 ### 3. Weather Prediction for Hillingdon Council
-<img src="/assets/img/Predictive-ML-Hillingdon-Council-UK.jpeg" class="project-image" alt="Weather Prediction">
+<img src="./assets/img/Predictive-ML-Hillingdon-Council-UK.jpeg" class="project-image" alt="Weather Prediction">
 * **Description**: Machine learning-based weather prediction system developed for Hillingdon Council, UK, using various ML algorithms.
 
 * **Skills**: Python, Machine Learning, Time Series Analysis
@@ -180,7 +180,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 ### 4. RAG-NasaAI SpaceLovers
-<img src="/assets/img/NasaAI-proj-img.jpeg" class="project-image" alt="NASA AI">
+<img src="./assets/img/NasaAI-proj-img.jpeg" class="project-image" alt="NASA AI">
 * **Description**: A Retrieval-Augmented Generation (RAG) system for space-related queries, integrating NASA's data with AI capabilities.
 
 * **Skills**: Python, RAG, AI/ML, API Integration
@@ -193,7 +193,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 ### 5. DataAnalyserPro
-<img src="/assets/img/Data-Analytics-Pro.jpeg" class="project-image" alt="Data Analysis">
+<img src="./assets/img/Data-Analytics-Pro.jpeg" class="project-image" alt="Data Analysis">
 * **Description**: A web-based data analysis tool that provides instant insights from Excel files without storing any data. Features rich visualizations and comprehensive statistics.
 
 * **Skills**: Excel, React, TypeScript, Tailwind CSS
@@ -206,7 +206,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 ### 6. Tableau Dashboards
-<img src="/assets/img/Customers-Data-Insights-Dashboard.jpeg" class="project-image" alt="Customer Insights Data Analysis">
+<img src="./assets/img/Customers-Data-Insights-Dashboard.jpeg" class="project-image" alt="Customer Insights Data Analysis">
 #### Customer Insight Analysis
 * **Description**: Interactive dashboard analyzing customer behavior and insights with interactive filters to visualise data by sales, gender and more.
 
@@ -219,7 +219,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 #### Adidas Sales Analysis
-<img src="/assets/img/tableau2.jpeg" class="project-image2" alt="Adidas Insights Data Analysis">
+<img src="./assets/img/tableau2.jpeg" class="project-image2" alt="Adidas Insights Data Analysis">
 * **Description**: Data analysis and visualisation of Adidas sales in the US with interactive filters like Profit margin, product and year.
 
 * **Skills**: Tableau, Sales Analytics, Interactive Visualization
