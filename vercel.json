@@ -1,0 +1,18 @@
+{
+  "buildCommand": "bundle exec jekyll build",
+  "outputDirectory": "_site",
+  "installCommand": "bundle install",
+  "framework": "jekyll",
+  "builds": [
+    {
+      "src": "Gemfile",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "_site"
+      }
+    }
+  ],
+  "env": {
+    "PAGES_REPO_NWO": "zanjeel/Zanjeels-Data-Portfolio"
+  }
+} 
