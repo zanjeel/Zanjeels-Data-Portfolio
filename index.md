@@ -8,7 +8,6 @@ html {
      overflow-x: hidden;
     font-size: 16px;
     line-height: 1.6;
-    zoom: 1;
     overflow-x: hidden;
     width: 100%;
 }
