@@ -31,6 +31,51 @@ body {
     padding: 0 15px;
 }
 
+/* Content Layout */
+section, article, div {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* List Styles */
+ul, ol {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.5em;
+}
+
+/* Project Description Lists */
+.project-description {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Education Section */
+.education-list {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.education-item {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
 /* Project image sizing */
 .project-image, .project-image2 {
     width: 100%;
@@ -174,19 +219,6 @@ p, li {
 /* Education container styles */
 .education-container {
     margin: 20px 0;
-}
-
-.education-item {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
-}
-
-.education-item:hover {
-    transform: translateY(-2px);
 }
 
 .education-item h3 {
