@@ -40,18 +40,42 @@ body {
     max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1030px) {
     html {
         font-size: 13px;
         zoom: 0;
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
     }
-    .project-image, .project-image2 {
-        width: 280px;
-        height: 280px;
-    }
+    
     body {
-        padding: 60px 15px 0;  /* Added top padding of 60px for mobile */
+        padding: 60px 15px 0;
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
     }
+    
+    .wrapper {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
+        padding: 0 10px;
+    }
+    
+    table {
+        max-width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .project-image, .project-image2 {
+        width: 100%;
+        height: auto;
+        max-width: calc(100vw - 30px);
+    }
+    
     h1 {
         font-size: 1.8em;
     }
@@ -197,7 +221,7 @@ p, li {
 }
 
 /* Desktop Styles */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1250px) {
   body {
     zoom: 1.1;  /* Reduced from 1.2 */
     -moz-transform: scale(1.1);
