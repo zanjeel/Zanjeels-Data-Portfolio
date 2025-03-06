@@ -15,7 +15,7 @@ html {
 body {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 80px 30px 0;  /* Added top padding of 80px */
     font-size: 1rem;
     overflow-x: hidden;
     width: 100%;
@@ -50,7 +50,7 @@ body {
         height: 280px;
     }
     body {
-        padding: 0 15px;
+        padding: 60px 15px 0;  /* Added top padding of 60px for mobile */
     }
     h1 {
         font-size: 2em;
