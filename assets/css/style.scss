@@ -1,0 +1,80 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for portfolio */
+.project-image {
+    width: 150px;  /* Fixed width */
+    height: 150px; /* Fixed height */
+    margin: 15px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    object-fit: cover; /* This will maintain aspect ratio while filling the fixed dimensions */
+}
+
+.project-section {
+    margin: 25px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.project-description {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Project features styling */
+.project-section ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.project-section li {
+    margin: 5px 0;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .project-image {
+        width: 120px;  /* Even smaller on mobile */
+        height: 120px;
+    }
+    
+    .project-section {
+        padding: 12px;
+        margin: 20px 0;
+    }
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    h3 {
+        font-size: 1.1em;
+    }
+}
+
+/* Skills section styling */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.skill-category {
+    background-color: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 0.95em;
+}
