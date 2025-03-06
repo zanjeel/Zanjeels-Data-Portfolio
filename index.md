@@ -328,6 +328,114 @@ p, li {
 table th {
     text-align: center;
 }
+
+/* Very small screens */
+@media screen and (max-width: 430px) {
+    html {
+        font-size: 12px;
+        zoom: 0.8;
+        overflow-x: hidden;
+        width: 100%;
+        position: relative;
+    }
+    
+    body {
+        padding: 40px 10px 0;
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
+    }
+    
+    .wrapper {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
+        padding: 0 5px;
+    }
+    
+    table {
+        max-width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        font-size: 0.8rem;
+    }
+    
+    .project-image, .project-image2 {
+        width: 100%;
+        height: auto;
+        max-width: calc(100vw - 20px);
+        margin: 10px auto;
+    }
+    
+    h1 {
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+    }
+    
+    h2 {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+    
+    h3 {
+        font-size: 1em;
+        margin-bottom: 0.5em;
+    }
+    
+    p, li {
+        font-size: 0.8rem;
+        line-height: 1.3;
+        margin-bottom: 0.8em;
+    }
+    
+    .project-button, .github-button {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+        margin-top: 6px;
+        margin-right: 6px;
+        border-radius: 4px;
+    }
+    
+    .project-separator {
+        margin: 15px 0;
+    }
+    
+    /* Skills section */
+    .skills li {
+        margin-bottom: 0.5em;
+    }
+    
+    /* Work Experience */
+    .work-experience li {
+        margin-bottom: 0.8em;
+    }
+    
+    /* Education */
+    .education-item {
+        padding: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .education-item h3 {
+        font-size: 0.9em;
+        margin-bottom: 8px;
+    }
+    
+    /* Contact section */
+    .contact-info {
+        font-size: 0.8rem;
+    }
+    
+    /* Reduce spacing between sections */
+    section {
+        margin-bottom: 1.5em;
+    }
+    
+    hr {
+        margin: 1em 0;
+    }
+}
 </style>
 
 # Data Scientist & Analyst
