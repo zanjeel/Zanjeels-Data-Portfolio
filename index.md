@@ -5,57 +5,71 @@ layout: default
 <style>
 /* Base styles for consistent sizing */
 html {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
+    zoom: 1.2;
 }
 
 body {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
+    font-size: 1.1rem;
 }
 
 /* Project image sizing */
 .project-image {
-    width: 400px;
-    height: 400px;
-    margin: 15px auto;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
     display: block;
     object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+        zoom: 1;
+    }
     .project-image {
         width: 300px;
         height: 300px;
+    }
+    body {
+        padding: 0 20px;
     }
 }
 
 /* Content sizing */
 .wrapper {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 section {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
 }
 
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
+    font-size: 3em;
+    margin-bottom: 0.7em;
 }
 
 h2 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
 }
 
 h3 {
-    font-size: 1.75em;
-    margin-bottom: 0.5em;
+    font-size: 2em;
+    margin-bottom: 0.7em;
+}
+
+p, li {
+    font-size: 1.1rem;
+    margin-bottom: 1em;
 }
 
 /* GitHub Profile Link Style */
