@@ -228,7 +228,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 * **Key Features**: Real-time space data retrieval, accurate space information, interactive Q&A interface
 
-[View Live Project](https://rag-nasaai-spacelovers.onrender.com){: .project-button} [View on GitHub](https://github.com/zanjeel/RAG-NasaAI-SpaceLovers){: .github-button}
+[View on GitHub](https://github.com/zanjeel/RAG-NasaAI-SpaceLovers){: .github-button}
 
 
 
@@ -311,7 +311,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 ## Contact
 
 * **GitHub**: [https://github.com/zanjeel](https://github.com/zanjeel)
-* **LinkedIn**: [https://www.linkedin.com/in/zanjeel-tariq-sahi](https://www.linkedin.com/in/zanjeel-tariq-sahi)
+* **LinkedIn**: [zanjeel-tariq-sahi](https://www.linkedin.com/in/zanjeel-tariq-sahi){:rel="noopener noreferrer"}
 * **Email**: zanjeel123@gmail.com
 
 ---
