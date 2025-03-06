@@ -1,186 +1,196 @@
 # Data Science Portfolio Template
 
-A modern, responsive portfolio template designed specifically for Data Scientists, Machine Learning Engineers, and Data Analysts. Built with Jekyll and hosted on GitHub Pages.
+[![GitHub stars](https://img.shields.io/github/stars/zanjeel/Zanjeels-Data-Portfolio?style=social)](https://github.com/zanjeel/Zanjeels-Data-Portfolio/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/zanjeel/Zanjeels-Data-Portfolio?style=social)](https://github.com/zanjeel/Zanjeels-Data-Portfolio/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/zanjeel/Zanjeels-Data-Portfolio)](https://github.com/zanjeel/Zanjeels-Data-Portfolio/issues)
+[![GitHub license](https://img.shields.io/github/license/zanjeel/Zanjeels-Data-Portfolio)](https://github.com/zanjeel/Zanjeels-Data-Portfolio/blob/main/LICENSE)
 
-![Portfolio Demo](./assets/img/demo.png)
+<div align="center">
+  <img src="./assets/img/demo.png" alt="Portfolio Demo" width="100%">
+  
+  <h3>🚀 The Most Popular Data Science Portfolio Template</h3>
+  <p>A modern, responsive portfolio template designed specifically for Data Scientists, Machine Learning Engineers, and Data Analysts.</p>
 
-## 🌐 Live Demo
-View the live demo at: [https://zanjeel.github.io](https://zanjeel.github.io)
+  <p>
+    <a href="https://zanjeel.github.io/Zanjeels-Data-Portfolio">View Demo</a>
+    ·
+    <a href="https://github.com/zanjeel/Zanjeels-Data-Portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/zanjeel/Zanjeels-Data-Portfolio/issues">Request Feature</a>
+  </p>
+</div>
 
-## ✨ Features
-- Clean, modern design optimized for data science portfolios
-- Responsive layout for all devices
-- Project showcase with images and descriptions
-- Skills and experience sections
-- Education timeline
-- Work experience section
-- Contact information
-- Easy to customize and deploy
+---
+
+## ⭐ Why Choose This Template?
+
+Create a stunning portfolio website in minutes! This template is specifically designed for data professionals to showcase their projects, skills, and experience in a beautiful, modern layout.
+
+- 🎯 **Purpose-Built**: Optimized for data science project showcases
+- 📱 **Responsive**: Looks perfect on all devices
+- 🎨 **Customizable**: Easy to modify and personalize
+- 🚀 **Quick Setup**: Get your portfolio live in minutes
+- 📊 **Project Focused**: Ideal for displaying data projects
+- 🔧 **No Coding Required**: Simple configuration
+
+## 📋 Features
+
+<table>
+  <tr>
+    <td>✨ Modern Design</td>
+    <td>📱 Responsive Layout</td>
+    <td>🎯 Project Showcase</td>
+  </tr>
+  <tr>
+    <td>📊 Skills Section</td>
+    <td>👨‍🎓 Education Timeline</td>
+    <td>💼 Work Experience</td>
+  </tr>
+  <tr>
+    <td>📞 Contact Info</td>
+    <td>🎨 Easy Customization</td>
+    <td>🔧 Simple Setup</td>
+  </tr>
+</table>
 
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
-1. **Install Ruby (version 2.5.0 or higher)**
-   - Windows: Download from [RubyInstaller](https://rubyinstaller.org/)
-   - Mac: `brew install ruby`
-   - Linux: `sudo apt-get install ruby-full`
 
-2. **Install Bundler**
+<details>
+<summary>1. Install Ruby (2.5.0 or higher)</summary>
+
+- **Windows**: Download from [RubyInstaller](https://rubyinstaller.org/)
+- **Mac**: `brew install ruby`
+- **Linux**: `sudo apt-get install ruby-full`
+</details>
+
+<details>
+<summary>2. Install Bundler</summary>
+
+```bash
+gem install bundler
+```
+</details>
+
+<details>
+<summary>3. Install Git</summary>
+
+- **Windows**: Download from [Git for Windows](https://gitforwindows.org/)
+- **Mac**: `brew install git`
+- **Linux**: `sudo apt-get install git`
+</details>
+
+### 🔥 One-Minute Setup
+
+1. **Fork & Clone**
    ```bash
-   gem install bundler
+   git clone https://github.com/zanjeel/Zanjeels-Data-Portfolio.git
+   cd Zanjeels-Data-Portfolio
    ```
 
-3. **Install Git**
-   - Windows: Download from [Git for Windows](https://gitforwindows.org/)
-   - Mac: `brew install git`
-   - Linux: `sudo apt-get install git`
-
-### Installation Steps
-
-1. **Fork this repository**
-   - Click the "Fork" button at the top right of this repository
-
-2. **Clone your forked repository**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/data-science-portfolio.git
-   cd data-science-portfolio
-   ```
-
-3. **Install dependencies**
+2. **Install & Run**
    ```bash
    bundle install
-   ```
-
-4. **Run locally**
-   ```bash
    bundle exec jekyll serve
    ```
 
-5. **View your site**
-   - Open your browser and go to `http://localhost:4000`
+3. **View Your Site**: Open `http://localhost:4000` 🎉
 
-## 📝 Customization Guide
+## 💎 Customization
 
 ### 1. Basic Information
-Edit `_config.yml`:
 ```yaml
+# Edit _config.yml
 title: Your Name
 description: Data Scientist & Analyst
 logo: /assets/img/your-photo.jpg
 ```
 
-### 2. Update Content
-Edit `index.md` to add your:
-- Introduction
-- Education
-- Skills
-- Projects
-- Work Experience
-- Contact information
+### 2. Add Your Content
+Edit `index.md` to add:
+- 📝 Introduction
+- 🎓 Education
+- 💻 Skills
+- 🚀 Projects
+- 💼 Work Experience
+- 📞 Contact
 
-### 3. Add Projects
-For each project:
-1. Add project image to `assets/img/`
-2. Add project details in `index.md`:
-   ```markdown
-   ### Project Title
-   <img src="./assets/img/your-project-image.jpg" class="project-image" alt="Project Name">
-   * **Description**: Your project description
-   * **Skills**: Technologies used
-   * **Key Features**: Main features
-   ```
+### 3. Project Showcase
+```markdown
+### 🌟 Project Title
+<img src="./assets/img/project.jpg" class="project-image">
 
-### 4. Customize Styling
-Modify the CSS in `index.md` to change:
-- Colors
-- Fonts
-- Layout
-- Spacing
-- Image sizes
+* 📝 **Description**: Your amazing project
+* 💻 **Skills**: Python, ML, AI
+* ✨ **Features**: Cool stuff it does
+```
 
-## 📸 Adding Images
-1. **Project Images**
-   - Size: 500x500px (recommended)
-   - Format: JPG or PNG
-   - Location: `assets/img/`
-   - Optimization: Compress images for web
+## 📸 Image Guidelines
 
-2. **Profile Photo**
-   - Add to `assets/img/`
-   - Update path in `_config.yml`
+| Type | Size | Format | Location |
+|------|------|--------|----------|
+| Projects | 500x500px | JPG/PNG | `/assets/img/` |
+| Profile | 400x400px | JPG/PNG | `/assets/img/` |
 
 ## 🔧 Troubleshooting
 
-### Common Issues
+<details>
+<summary>Common Issues & Solutions</summary>
 
-1. **Ruby Version Errors**
+1. **Ruby Version Issues**
    ```bash
    ruby -v  # Check version
    rvm install 2.7.0  # Install specific version
    ```
-
-2. **Bundle Install Errors**
+2. **Bundle Install Fails**
    ```bash
    gem install bundler
    bundle update
    bundle install
    ```
 
-3. **Jekyll Build Errors**
+3. **Jekyll Errors**
    ```bash
    bundle exec jekyll clean
    bundle exec jekyll build
    ```
+</details>
 
-4. **Local Preview Not Working**
-   - Check if port 4000 is free
-   - Try `bundle exec jekyll serve --port 4001`
+## 📱 Responsive Design
 
-## 📱 Mobile Responsiveness
-The template is mobile-responsive by default. Test your site on:
-- Desktop (1920px and above)
-- Laptop (1366px)
-- Tablet (768px)
-- Mobile (375px)
+Test your portfolio on all devices:
+- 🖥️ Desktop (1920px+)
+- 💻 Laptop (1366px)
+- 📱 Tablet (768px)
+- 📱 Mobile (375px)
 
-## 🚀 Deployment
+## 🚀 Deploy to GitHub Pages
 
-### GitHub Pages
 1. Go to repository settings
-2. Enable GitHub Pages
+2. Navigate to "Pages"
 3. Select `main` branch
-4. Wait for deployment (usually 1-2 minutes)
-
-### Custom Domain (Optional)
-1. Add your domain in repository settings
-2. Create CNAME record with your DNS provider
-3. Add CNAME file to your repository
+4. Wait for deployment ⏳
+5. Your site is live! 🎉
 
 ## 🤝 Contributing
-1. Fork the repository
-2. Create your feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a Pull Request
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for ways to get started.
 
 ## 📄 License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
+
 Zanjeel T. Sahi - [zanjeel123@gmail.com](mailto:zanjeel123@gmail.com)
 
-Project Link: [https://github.com/zanjeel/data-science-portfolio](https://github.com/zanjeel/data-science-portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/zanjeel-tariq-sahi)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/zanjeel)
 
-## 🙏 Acknowledgments
-- Jekyll for the static site generator
-- GitHub Pages for hosting
-- All contributors who help improve this template
+---
+
+<div align="center">
+  Made with ❤️ by <a href="https://github.com/zanjeel">Zanjeel</a>
+</div>
+
