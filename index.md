@@ -4,103 +4,87 @@ layout: default
 
 <style>
 /* Base styles for consistent sizing */
-html {
-     overflow-x: hidden;
-    font-size: 16px;
-    line-height: 1.6;
-    zoom: 1.1;
-    overflow-x: hidden;
+html, body {
+    overflow-x: hidden !important;
+    position: relative;
     width: 100%;
+    max-width: 100%;
 }
 
 body {
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 80px 30px 0;  /* Added top padding of 80px */
+    padding: 80px 15px 0;
     font-size: 1rem;
-    overflow-x: hidden;
-    width: 100%;
 }
 
 /* Project image sizing */
-.project-image {
-    width: 500px;
-    height: 500px;
+.project-image, .project-image2 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     margin: 20px auto;
     display: block;
     object-fit: cover;
-    max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-.project-image2 {
-    width: 500px;
-    height: 500px;
-    margin: 20px auto;
-    display: block;
-    object-fit: cover;
-    max-width: 100%;  /* Ensure images don't cause overflow */
+/* Table styles */
+table {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 0.9rem;
 }
 
+/* Mobile styles */
 @media screen and (max-width: 1030px) {
-    html {
-        font-size: 13px;
-        zoom: 0;
-        overflow-x: hidden;
-        width: 100%;
+    html, body {
+        overflow-x: hidden !important;
         position: relative;
+        width: 100%;
+        max-width: 100%;
     }
     
     body {
-        padding: 60px 15px 0;
-        overflow-x: hidden;
-        width: 100%;
-        max-width: 100vw;
+        padding: 60px 10px 0;
     }
     
     .wrapper {
-        overflow-x: hidden;
-        width: 100%;
-        max-width: 100vw;
         padding: 0 10px;
-    }
-    
-    table {
-        max-width: 100%;
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
     }
     
     .project-image, .project-image2 {
         width: 100%;
+        max-width: 100%;
         height: auto;
-        max-width: calc(100vw - 30px);
     }
     
-    h1 {
-        font-size: 1.8em;
+    table {
+        display: block;
+        max-width: fit-content;
+        margin: 0 auto;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
     }
-    h2 {
-        font-size: 1.3em;
-    }
-    h3 {
-        font-size: 1.1em;
-    }
-    p, li {
-        font-size: 0.8rem;
-    }
-    .project-button, .github-button {
-        padding: 6px 12px;
-        font-size: 0.9rem;
+    
+    /* Prevent content overflow */
+    p, li, h1, h2, h3, h4, h5, h6 {
+        max-width: 100%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 }
 
-/* Content sizing */
+/* Content wrapper */
 .wrapper {
-    max-width: 1400px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0 15px;
     margin: 0 auto;
-    padding: 0 30px;
-    overflow-x: hidden;  /* Prevent wrapper overflow */
+    box-sizing: border-box;
 }
 
 section {
