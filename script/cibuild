@@ -1,8 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
+# Build the site
 bundle exec jekyll build
+
+# Add any additional build steps here if needed
+# For example:
+# - Run tests
+# - Check for broken links
+# - Validate HTML
+
 bundle exec htmlproofer ./_site --check-html --check-sri
 bundle exec rubocop -D --config .rubocop.yml
 bundle exec script/validate-html
