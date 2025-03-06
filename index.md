@@ -252,6 +252,15 @@ p, li {
     font-size: 1.1rem;
   }
 }
+
+/* Add to the style section */
+.project-separator {
+    border: 0;
+    height: 1px;
+    background-color: #e1e4e8;
+    margin: 30px 0;
+    width: 100%;
+}
 </style>
 
 # Data Scientist & Analyst
@@ -294,6 +303,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 [View Live Project](https://voice-to-voice-llm.vercel.app){: .project-button} [View on GitHub](https://github.com/zanjeel/Voice-to-Voice-LLM){: .github-button}
 
+<hr class="project-separator">
+
 
 
 
@@ -306,6 +317,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 * **Key Features**: Real-time voice processing, natural dialogue, witty responses
 
 [View Live Project](https://zanjeel.github.io/Automobile-Predictive-Data-Analysis-RStudio/Automobile-Price-Prediction.nb.html){: .project-button} [View on GitHub](https://github.com/zanjeel/Automobile-Predictive-Data-Analysis-RStudio){: .github-button}
+
+<hr class="project-separator">
 
 
 
@@ -320,6 +333,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 [View Live Project](https://zanjeel.github.io/Weather-Prediction-MachineLearningAlgorithms-HillingdonCouncilUK/MachineLearningModelsforWeatherPrediction.html){: .project-button} [View on GitHub](https://github.com/zanjeel/Weather-Prediction-MachineLearningAlgorithms-HillingdonCouncilUK){: .github-button}
 
+<hr class="project-separator">
+
 
 
 
@@ -333,6 +348,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 [View on GitHub](https://github.com/zanjeel/RAG-NasaAI-SpaceLovers){: .github-button}
 
+<hr class="project-separator">
+
 
 
 
@@ -345,6 +362,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 * **Key Features**: Privacy-first processing, rich visualizations, responsive design
 
 [View Live Project](https://data-analyser-pro.netlify.app){: .project-button} [View on GitHub](https://github.com/zanjeel/DataAnalyserPro){: .github-button}
+
+<hr class="project-separator">
 
 
 
@@ -360,6 +379,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 [View Dashboard](https://public.tableau.com/app/profile/zanjeel.tariq.sahi/viz/CustomerInsightDataAnalysis/Dashboard){: .project-button}
 
+<hr class="project-separator">
+
 
 
 #### Adidas Sales Analysis
@@ -371,6 +392,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 * **Key Features**: Sales performance metrics, regional analysis, product category insights
 
 [View Dashboard](https://public.tableau.com/app/profile/zanjeel.tariq.sahi/viz/AdidasSalesAnalaysisUSwithInteractiveFiltersforDeeperInsights/Dashboard){: .project-button}
+
+<hr class="project-separator">
 
 
 ---
