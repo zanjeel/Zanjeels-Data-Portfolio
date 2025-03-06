@@ -5,20 +5,25 @@ layout: default
 <style>
 /* Base styles for consistent sizing */
 html {
-     overflow-x: hidden;
+    overflow-x: hidden !important;
+    position: fixed;
+    width: 100%;
     font-size: 16px;
     line-height: 1.6;
-    overflow-x: hidden;
-    width: 100%;
 }
 
 body {
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 80px 30px 0;  /* Added top padding of 80px */
+    padding: 80px 30px 0;
     font-size: 1rem;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* Project image sizing */
@@ -95,6 +100,33 @@ body {
 @media screen and (max-width: 480px) {
     html {
         font-size: 11px;
+        overflow-x: hidden !important;
+        position: fixed;
+        width: 100%;
+        -webkit-text-size-adjust: none;
+        -moz-text-size-adjust: none;
+        -ms-text-size-adjust: none;
+        text-size-adjust: none;
+        touch-action: pan-y pinch-zoom;
+        -webkit-overflow-scrolling: touch;
+        max-width: 100vw;
+    }
+    
+    body {
+        overflow-x: hidden !important;
+        position: absolute;
+        width: 100%;
+        max-width: 100vw;
+        margin: 0;
+        padding: 60px 15px 0;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .wrapper {
+        overflow-x: hidden !important;
+        width: 100%;
+        max-width: 100vw;
+        position: relative;
     }
     
     .project-image, .project-image2 {
@@ -119,17 +151,17 @@ section {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 0.7em;
 }
 
 h2 {
-    font-size: 1.8em;
+    font-size: 2.5em;
     margin-bottom: 0.7em;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 0.7em;
 }
 
