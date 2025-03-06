@@ -330,8 +330,12 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 ## Education
 
+## Education
+
 * **MSc., Data Science & Analytics** - Brunel University London *(Dec 2024)*
 * **BSc., Computer Science** - FAST University *(Sep 2023)*
+
+
 
 ## Skills
 
