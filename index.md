@@ -5,6 +5,7 @@ layout: default
 <style>
 /* Base styles for consistent sizing */
 html {
+     overflow-x: hidden;
     font-size: 16px;
     line-height: 1.6;
     zoom: 1.1;
@@ -40,7 +41,7 @@ body {
     max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1399px) {
     html {
         font-size: 13px;
         zoom: 0;
@@ -221,8 +222,9 @@ p, li {
 }
 
 /* Desktop Styles */
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1400px) {
   body {
+     overflow-x: hidden;
     zoom: 1.1;  /* Reduced from 1.2 */
     -moz-transform: scale(1.1);
     -moz-transform-origin: 0 0;
