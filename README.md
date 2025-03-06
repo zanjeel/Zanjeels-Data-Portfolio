@@ -1,6 +1,30 @@
 # Zanjeels-Data-Portfolio
 A compact online portfolio about my expertise in Machine Learning, AI, Data Science and Analysis
 
+<style>
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.75em;
+  }
+  p {
+    font-size: 1.1em;
+  }
+  li {
+    font-size: 1.1em;
+  }
+}
+</style>
+
 ![Portfolio Demo](./assets/img/demo.png)
 
 A modern, responsive portfolio template designed specifically for data scientists and analysts. This template showcases your projects, skills, and experience in a clean, professional layout.
