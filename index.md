@@ -6,7 +6,6 @@ layout: default
 /* Base styles for consistent sizing */
 html {
     overflow-x: hidden !important;
-    position: fixed;
     width: 100%;
     font-size: 16px;
     line-height: 1.6;
@@ -19,11 +18,6 @@ body {
     font-size: 1rem;
     overflow-x: hidden !important;
     width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 /* Project image sizing */
@@ -101,7 +95,6 @@ body {
     html {
         font-size: 11px;
         overflow-x: hidden !important;
-        position: fixed;
         width: 100%;
         -webkit-text-size-adjust: none;
         -moz-text-size-adjust: none;
@@ -114,7 +107,6 @@ body {
     
     body {
         overflow-x: hidden !important;
-        position: absolute;
         width: 100%;
         max-width: 100vw;
         margin: 0;
@@ -126,7 +118,6 @@ body {
         overflow-x: hidden !important;
         width: 100%;
         max-width: 100vw;
-        position: relative;
     }
     
     .project-image, .project-image2 {
