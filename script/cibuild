@@ -5,15 +5,9 @@ set -e
 # Build the site
 bundle exec jekyll build
 
-# Run HTML proofer with relaxed settings
+# Run HTML proofer with basic settings
 # --disable-external: Skip external link checking
-# --ignore-missing-alt: Skip checking for alt tags
-# --ignore-missing-href: Skip checking for href attributes
-bundle exec htmlproofer ./_site \
-  --disable-external \
-  --ignore-missing-alt \
-  --ignore-missing-href \
-  --check-html
+bundle exec htmlproofer ./_site --disable-external
 
 # Run Rubocop for code style checking
 bundle exec rubocop -D --config .rubocop.yml
