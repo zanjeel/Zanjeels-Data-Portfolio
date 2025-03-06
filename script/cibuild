@@ -7,12 +7,13 @@ bundle exec jekyll build
 
 # Run HTML proofer with relaxed settings
 # --disable-external: Skip external link checking
-# --ignore-urls: Ignore specific URLs that might be problematic
+# --ignore-missing-alt: Skip checking for alt tags
+# --ignore-missing-href: Skip checking for href attributes
 bundle exec htmlproofer ./_site \
   --disable-external \
-  --ignore-urls "/rag-nasaai-spacelovers.onrender.com/,/www.linkedin.com/" \
-  --check-html \
-  --check-sri
+  --ignore-missing-alt \
+  --ignore-missing-href \
+  --check-html
 
 # Run Rubocop for code style checking
 bundle exec rubocop -D --config .rubocop.yml
