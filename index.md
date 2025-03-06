@@ -41,7 +41,7 @@ body {
     max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1030px) {
     html {
         font-size: 13px;
         zoom: 0;
@@ -222,10 +222,10 @@ p, li {
 }
 
 /* Desktop Styles */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1250px) {
   body {
-     overflow-x: hidden;
-    zoom: 1.1;  /* Reduced from 1.2 */
+    overflow-x: hidden;
+    zoom: 1.1;
     -moz-transform: scale(1.1);
     -moz-transform-origin: 0 0;
   }
@@ -236,23 +236,23 @@ p, li {
   }
   
   h1 {
-    font-size: 2.5rem;  /* Reduced from 3rem */
+    font-size: 2.5rem;
   }
   
   h2 {
-    font-size: 2rem;  /* Reduced from 2.4rem */
+    font-size: 2rem;
   }
   
   h3 {
-    font-size: 1.5rem;  /* Reduced from 2rem */
+    font-size: 1.5rem;
   }
   
   p {
-    font-size: 1rem;  /* Reduced from 1.2rem */
+    font-size: 1rem;
   }
   
   .project-image {
-    max-width: 90%;  /* Reduced from 100% */
+    max-width: 90%;
     height: auto;
   }
   
@@ -276,6 +276,42 @@ p, li {
   
   .education-item p {
     font-size: 1.1rem;
+  }
+}
+
+/* Medium-large screens */
+@media screen and (min-width: 1024px) and (max-width: 1249px) {
+  body {
+    overflow-x: hidden;
+    zoom: 0.9;
+    -moz-transform: scale(0.9);
+    -moz-transform-origin: 0 0;
+  }
+  
+  .container {
+    max-width: 1100px;
+    padding: 0 2rem;
+  }
+  
+  h1 {
+    font-size: 2.3rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  .project-image {
+    max-width: 85%;
+    height: auto;
   }
 }
 
