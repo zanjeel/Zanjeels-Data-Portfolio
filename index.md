@@ -43,7 +43,7 @@ body {
 @media screen and (max-width: 768px) {
     html {
         font-size: 13px;
-        zoom: 0.9;
+        zoom: 0;
     }
     .project-image, .project-image2 {
         width: 280px;
