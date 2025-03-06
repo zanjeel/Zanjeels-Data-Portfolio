@@ -42,7 +42,7 @@ body {
 
 @media screen and (max-width: 768px) {
     html {
-        font-size: 14px;
+        font-size: 13px;
         zoom: 0.9;
     }
     .project-image, .project-image2 {
@@ -53,16 +53,16 @@ body {
         padding: 60px 15px 0;  /* Added top padding of 60px for mobile */
     }
     h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     h2 {
-        font-size: 1.5em;
-    }
-    h3 {
         font-size: 1.3em;
     }
+    h3 {
+        font-size: 1.1em;
+    }
     p, li {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .project-button, .github-button {
         padding: 6px 12px;
@@ -261,6 +261,11 @@ p, li {
     margin: 30px 0;
     width: 100%;
 }
+
+/* Add to the style section */
+table th {
+    text-align: center;
+}
 </style>
 
 # Data Scientist & Analyst
@@ -273,7 +278,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 ## Education
 
 | Degree | Institution | Year |
-|--------|-------------|------|
+|:------:|:----------:|:----:|
 | MSc., Data Science & Analytics | Brunel University London | Dec 2024 |
 | BSc., Computer Science | FAST University | Sep 2023 |
 
