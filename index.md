@@ -25,10 +25,70 @@ body {
 
 .wrapper {
     width: 100%;
-    max-width: 100vw;
-    overflow-x: hidden !important;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
+    overflow-x: hidden !important;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Content Layout */
+section, article, div {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* List Styles */
+ul, ol {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.5em;
+}
+
+/* Project Description Lists */
+.project-description {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Education Section */
+.education-list {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.education-item {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1em;
 }
 
 /* Project image sizing */
@@ -44,12 +104,14 @@ body {
 /* Table styles */
 table {
     width: 100%;
-    max-width: 100%;
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #e1e4e8;
 }
 
 /* Media Queries */
@@ -174,19 +236,6 @@ p, li {
 /* Education container styles */
 .education-container {
     margin: 20px 0;
-}
-
-.education-item {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
-}
-
-.education-item:hover {
-    transform: translateY(-2px);
 }
 
 .education-item h3 {
@@ -330,21 +379,26 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 ## Education
 
-## Education
+<div class="grid-container">
+<div class="grid-item">
 
+### Education
 * **MSc., Data Science & Analytics** - Brunel University London *(Dec 2024)*
 * **BSc., Computer Science** - FAST University *(Sep 2023)*
 
+</div>
+<div class="grid-item">
 
-
-## Skills
-
+### Skills
 * **Programming Languages**: Python, R, SQL, JavaScript, CSS, HTML
 * **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib, Sikit 
 * **Machine Learning**: Scikit-learn, TensorFlow, Deep Learning
 * **Data Visualization**: Tableau, Power BI, Matplotlib
 * **AI/ML**: RAG, LLMs, Speech Recognition, APIs
 * **Tools**: Git, GitHub, Google Cloud Platform
+
+</div>
+</div>
 
 ---
 
