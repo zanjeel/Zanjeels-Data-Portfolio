@@ -194,19 +194,19 @@ p, li {
   }
   
   h1 {
-    font-size: 2.8rem;  /* Reduced from 3rem */
+    font-size: 2.5rem;  /* Reduced from 3rem */
   }
   
   h2 {
-    font-size: 2.2rem;  /* Reduced from 2.4rem */
+    font-size: 2rem;  /* Reduced from 2.4rem */
   }
   
   h3 {
-    font-size: 1.8rem;  /* Reduced from 2rem */
+    font-size: 1.5rem;  /* Reduced from 2rem */
   }
   
   p {
-    font-size: 1.1rem;  /* Reduced from 1.2rem */
+    font-size: 1rem;  /* Reduced from 1.2rem */
   }
   
   .project-image {
