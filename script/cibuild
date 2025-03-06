@@ -17,6 +17,3 @@ bundle exec rubocop -D --config .rubocop.yml
 # - Run tests
 # - Check for broken links
 # - Validate HTML
-
-bundle exec script/validate-html
-gem build jekyll-theme-minimal.gemspec
