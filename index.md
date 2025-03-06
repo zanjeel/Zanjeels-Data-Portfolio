@@ -4,87 +4,103 @@ layout: default
 
 <style>
 /* Base styles for consistent sizing */
-html, body {
-    overflow-x: hidden !important;
-    position: relative;
+html {
+     overflow-x: hidden;
+    font-size: 16px;
+    line-height: 1.6;
+    zoom: 1.1;
+    overflow-x: hidden;
     width: 100%;
-    max-width: 100%;
 }
 
 body {
-    max-width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 80px 15px 0;
+    padding: 80px 30px 0;  /* Added top padding of 80px */
     font-size: 1rem;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 /* Project image sizing */
-.project-image, .project-image2 {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+.project-image {
+    width: 500px;
+    height: 500px;
     margin: 20px auto;
     display: block;
     object-fit: cover;
+    max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-/* Table styles */
-table {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    font-size: 0.9rem;
+.project-image2 {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-/* Mobile styles */
 @media screen and (max-width: 1030px) {
-    html, body {
-        overflow-x: hidden !important;
-        position: relative;
+    html {
+        font-size: 13px;
+        zoom: 0;
+        overflow-x: hidden;
         width: 100%;
-        max-width: 100%;
+        position: relative;
     }
     
     body {
-        padding: 60px 10px 0;
+        padding: 60px 15px 0;
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
     }
     
     .wrapper {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100vw;
         padding: 0 10px;
+    }
+    
+    table {
+        max-width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
     }
     
     .project-image, .project-image2 {
         width: 100%;
-        max-width: 100%;
         height: auto;
+        max-width: calc(100vw - 30px);
     }
     
-    table {
-        display: block;
-        max-width: fit-content;
-        margin: 0 auto;
-        overflow-x: auto;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
+    h1 {
+        font-size: 1.8em;
     }
-    
-    /* Prevent content overflow */
-    p, li, h1, h2, h3, h4, h5, h6 {
-        max-width: 100%;
-        word-wrap: break-word;
-        overflow-wrap: break-word;
+    h2 {
+        font-size: 1.3em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    p, li {
+        font-size: 0.8rem;
+    }
+    .project-button, .github-button {
+        padding: 6px 12px;
+        font-size: 0.9rem;
     }
 }
 
-/* Content wrapper */
+/* Content sizing */
 .wrapper {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    padding: 0 15px;
+    max-width: 1400px;
     margin: 0 auto;
-    box-sizing: border-box;
+    padding: 0 30px;
+    overflow-x: hidden;  /* Prevent wrapper overflow */
 }
 
 section {
@@ -311,101 +327,6 @@ p, li {
 /* Add to the style section */
 table th {
     text-align: center;
-}
-
-/* Very small screens */
-@media screen and (max-width: 345px) {
-    html, body {
-        font-size: 11px;
-    }
-    
-    body {
-        padding: 30px 8px 0;
-    }
-    
-    h1 {
-        font-size: 1.4em;
-        margin-bottom: 0.5em;
-    }
-    
-    h2 {
-        font-size: 1.1em;
-        margin-bottom: 0.5em;
-    }
-    
-    h3 {
-        font-size: 0.9em;
-        margin-bottom: 0.5em;
-    }
-    
-    h4 {
-        font-size: 0.85em;
-        margin-bottom: 0.5em;
-    }
-    
-    p, li {
-        font-size: 0.8rem;
-        line-height: 1.3;
-        margin-bottom: 0.8em;
-    }
-    
-    .project-button, .github-button {
-        padding: 4px 8px;
-        font-size: 0.75rem;
-        margin-top: 6px;
-        margin-right: 6px;
-        border-radius: 4px;
-    }
-    
-    .project-image, .project-image2 {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        margin: 12px auto;
-    }
-    
-    table {
-        font-size: 0.75rem;
-    }
-    
-    .project-separator {
-        margin: 15px 0;
-    }
-    
-    /* Skills section */
-    .skills li {
-        margin-bottom: 0.5em;
-    }
-    
-    /* Work Experience */
-    .work-experience li {
-        margin-bottom: 0.8em;
-    }
-    
-    /* Education */
-    .education-item {
-        padding: 12px;
-        margin-bottom: 10px;
-    }
-    
-    .education-item h3 {
-        font-size: 0.9em;
-        margin-bottom: 8px;
-    }
-    
-    /* Contact section */
-    .contact-info {
-        font-size: 0.8rem;
-    }
-    
-    /* Reduce spacing between sections */
-    section {
-        margin-bottom: 1.5em;
-    }
-    
-    hr {
-        margin: 1em 0;
-    }
 }
 </style>
 
