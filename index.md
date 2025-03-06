@@ -183,8 +183,8 @@ p, li {
 /* Desktop Styles */
 @media screen and (min-width: 1024px) {
   body {
-    zoom: 1.1;  /* Reduced from 1.2 */
-    -moz-transform: scale(1.1);
+    zoom: 1;  /* Reduced from 1.2 */
+    -moz-transform: scale(1);
     -moz-transform-origin: 0 0;
   }
   
