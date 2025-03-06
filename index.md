@@ -8,6 +8,8 @@ html {
     font-size: 18px;
     line-height: 1.6;
     zoom: 1.2;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -15,6 +17,8 @@ body {
     margin: 0 auto;
     padding: 0 30px;
     font-size: 1.1rem;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 /* Project image sizing */
@@ -24,6 +28,16 @@ body {
     margin: 20px auto;
     display: block;
     object-fit: cover;
+    max-width: 100%;  /* Ensure images don't cause overflow */
+}
+
+.project-image2 {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    display: block;
+    object-fit: cover;
+    max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
 @media screen and (max-width: 768px) {
@@ -31,7 +45,7 @@ body {
         font-size: 16px;
         zoom: 1;
     }
-    .project-image {
+    .project-image, .project-image2 {
         width: 300px;
         height: 300px;
     }
@@ -45,11 +59,13 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 30px;
+    overflow-x: hidden;  /* Prevent wrapper overflow */
 }
 
 section {
     font-size: 1.1rem;
     line-height: 1.6;
+    max-width: 100%;  /* Ensure sections don't overflow */
 }
 
 h1 {
