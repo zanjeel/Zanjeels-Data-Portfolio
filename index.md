@@ -179,6 +179,63 @@ p, li {
     margin: 0;
     font-style: italic;
 }
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+  body {
+    zoom: 1.1;  /* Reduced from 1.2 */
+    -moz-transform: scale(1.1);
+    -moz-transform-origin: 0 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    padding: 0 2rem;
+  }
+  
+  h1 {
+    font-size: 2.8rem;  /* Reduced from 3rem */
+  }
+  
+  h2 {
+    font-size: 2.2rem;  /* Reduced from 2.4rem */
+  }
+  
+  h3 {
+    font-size: 1.8rem;  /* Reduced from 2rem */
+  }
+  
+  p {
+    font-size: 1.1rem;  /* Reduced from 1.2rem */
+  }
+  
+  .project-image {
+    max-width: 90%;  /* Reduced from 100% */
+    height: auto;
+  }
+  
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .skill-item {
+    padding: 1.2rem;
+    font-size: 1.1rem;
+  }
+  
+  .education-item {
+    padding: 1.5rem;
+  }
+  
+  .education-item h3 {
+    font-size: 1.6rem;
+  }
+  
+  .education-item p {
+    font-size: 1.1rem;
+  }
+}
 </style>
 
 # Data Scientist & Analyst
