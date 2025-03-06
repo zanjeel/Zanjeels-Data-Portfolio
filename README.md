@@ -1,7 +1,7 @@
 # Zanjeels-Data-Portfolio
 A compact online portfolio about my expertise in Machine Learning, AI, Data Science and Analysis
 
-![Portfolio Demo](assets/img/demo.png)
+![Portfolio Demo](https://raw.githubusercontent.com/zanjeel/data-science-portfolio/main/assets/img/demo.png)
 
 A modern, responsive portfolio template designed specifically for data scientists and analysts. This template showcases your projects, skills, and experience in a clean, professional layout.
 
