@@ -8,7 +8,7 @@ html {
      overflow-x: hidden;
     font-size: 16px;
     line-height: 1.6;
-    zoom: 1.1;
+    zoom: 1;
     overflow-x: hidden;
     width: 100%;
 }
@@ -44,7 +44,6 @@ body {
 @media screen and (max-width: 1030px) {
     html {
         font-size: 13px;
-        zoom: 0.9;
         overflow-x: hidden;
         width: 100%;
         position: relative;
