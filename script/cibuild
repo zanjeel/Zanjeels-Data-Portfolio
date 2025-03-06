@@ -1,19 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 
 set -e
 
-# Build the site
 bundle exec jekyll build
-
-# Run HTML proofer with basic settings
-# --disable-external: Skip external link checking
-bundle exec htmlproofer ./_site --disable-external
-
-# Run Rubocop for code style checking
+bundle exec htmlproofer ./_site --check-html --check-sri
 bundle exec rubocop -D --config .rubocop.yml
-
-# Add any additional build steps here if needed
-# For example:
-# - Run tests
-# - Check for broken links
-# - Validate HTML
+bundle exec script/validate-html
+gem build jekyll-theme-minimal.gemspec

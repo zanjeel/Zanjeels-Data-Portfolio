@@ -2,7 +2,7 @@ title: Zanjeel T. Sahi
 logo: /assets/img/logo.png
 name: Zanjeel T. Sahi
 site_title: Zanjeel T. Sahi
-description: Data Scientist & Analyst
+description: View more Projects on my Github
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
@@ -10,15 +10,4 @@ github:
   is_user_page: true
   owner_url: https://github.com/zanjeel
   repository_url: https://github.com/zanjeel
-  repository_nwo: zanjeel/Zanjeels-Data-Portfolio
-
-# Custom settings
-markdown: kramdown
-permalink: pretty
-baseurl: "/Zanjeels-Data-Portfolio"
-url: "https://zanjeel.github.io"
-
-# Build settings
-build:
-  output: _site
-  source: .
+  repository_nwo: zanjeel

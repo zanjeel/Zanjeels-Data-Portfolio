@@ -3,128 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* Base layout */
-.wrapper {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-}
-
-header {
-    width: 300px;
-    position: fixed;
-    padding: 20px;
-    background: #fff;
-    height: 100vh;
-    overflow-y: auto;
-}
-
-section {
-    margin-left: 320px;
-    width: calc(100% - 320px);
-    padding: 20px;
-}
-
-/* Project image sizing */
-.project-image {
-    width: 400px;
-    height: 400px;
-    margin: 15px auto;
-    display: block;
-    object-fit: cover;
-}
-
-@media screen and (max-width: 768px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    
-    header {
-        width: 100%;
-        position: relative;
-        height: auto;
-        padding: 15px;
-    }
-    
-    section {
-        margin-left: 0;
-        width: 100%;
-        padding: 15px;
-    }
-    
-    .project-image {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-/* Button styles */
-.project-button, .github-button {
-    display: inline-block;
-    padding: 8px 16px;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-right: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.project-button {
-    background-color: #0366d6;
-}
-
-.project-button:hover {
-    background-color: #0245a3;
-}
-
-.github-button {
-    background-color: #24292e;
-}
-
-.github-button:hover {
-    background-color: #2f363d;
-}
-
-/* Content styling */
-h1 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-
-h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-}
-
-h3 {
-    font-size: 1.25em;
-    margin-bottom: 0.5em;
-}
-
-p {
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 1em;
-}
-
-/* Skills section */
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    margin: 15px 0;
-}
-
-.skill-category {
-    background-color: #f8f9fa;
-    padding: 12px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
 /* Custom styles for portfolio */
 .project-image {
     width: 150px;  /* Fixed width */
@@ -183,4 +61,20 @@ p {
     h3 {
         font-size: 1.1em;
     }
+}
+
+/* Skills section styling */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.skill-category {
+    background-color: #f8f9fa;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size: 0.95em;
 }

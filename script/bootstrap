@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-# Install Ruby dependencies
+set -e
+
+gem install bundler
 bundle install
-
-# Install any other dependencies if needed
-# Add more commands here if required
