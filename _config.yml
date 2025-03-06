@@ -15,8 +15,8 @@ github:
 # Custom settings
 markdown: kramdown
 permalink: pretty
-baseurl: ""
-url: ""
+baseurl: "/Zanjeels-Data-Portfolio"
+url: "https://zanjeel.github.io"
 
 # Build settings
 build:
