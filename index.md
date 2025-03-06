@@ -4,126 +4,85 @@ layout: default
 
 <style>
 /* Base styles for consistent sizing */
-html {
+html, body {
+    max-width: 100vw;
     overflow-x: hidden !important;
-    width: 100%;
-    font-size: 16px;
-    line-height: 1.6;
+    position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    max-width: 100%;
-    margin: 0 auto;
     padding: 80px 30px 0;
     font-size: 1rem;
-    overflow-x: hidden !important;
+    line-height: 1.6;
+}
+
+* {
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+
+.wrapper {
     width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden !important;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* Project image sizing */
-.project-image {
-    width: 500px;
-    height: 500px;
+.project-image, .project-image2 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     margin: 20px auto;
     display: block;
     object-fit: cover;
-    max-width: 100%;  /* Ensure images don't cause overflow */
 }
 
-.project-image2 {
-    width: 500px;
-    height: 500px;
-    margin: 20px auto;
+/* Table styles */
+table {
+    width: 100%;
+    max-width: 100%;
     display: block;
-    object-fit: cover;
-    max-width: 100%;  /* Ensure images don't cause overflow */
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 auto;
 }
 
-/* Large screens (1024px and below) */
+/* Media Queries */
 @media screen and (max-width: 1024px) {
-    html {
-        font-size: 14px;
-        zoom: 0.95;
-        -moz-transform: scale(0.95);
-        -moz-transform-origin: 0 0;
-        overflow-x: hidden;
-        width: 100%;
-        position: relative;
-    }
-    
-    body {
-        padding: 60px 15px 0;
-        overflow-x: hidden;
-        width: 100%;
+    html, body {
+        overflow-x: hidden !important;
         max-width: 100vw;
-    }
-    
-    .wrapper {
-        overflow-x: hidden;
-        width: 100%;
-        max-width: 100vw;
-        padding: 0 10px;
     }
     
     .project-image, .project-image2 {
-        width: 450px;
-        height: 450px;
-        max-width: 95%;
-        margin: 15px auto;
-        object-fit: cover;
+        max-width: 450px;
     }
 }
 
-/* Medium screens (768px and below) */
 @media screen and (max-width: 768px) {
-    html {
-        font-size: 13px;
-        zoom: 0.9;
-        -moz-transform: scale(0.9);
-        -moz-transform-origin: 0 0;
-    }
-    
     .project-image, .project-image2 {
-        width: 400px;
-        height: 400px;
-        max-width: 90%;
+        max-width: 400px;
     }
 }
 
-/* Small screens (480px and below) */
 @media screen and (max-width: 480px) {
     html {
         font-size: 11px;
-        overflow-x: hidden !important;
-        width: 100%;
         -webkit-text-size-adjust: none;
-        -moz-text-size-adjust: none;
-        -ms-text-size-adjust: none;
         text-size-adjust: none;
-        touch-action: pan-y pinch-zoom;
-        -webkit-overflow-scrolling: touch;
-        max-width: 100vw;
-    }
-    
-    body {
-        overflow-x: hidden !important;
-        width: 100%;
-        max-width: 100vw;
-        margin: 0;
-        padding: 60px 15px 0;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    .wrapper {
-        overflow-x: hidden !important;
-        width: 100%;
-        max-width: 100vw;
     }
     
     .project-image, .project-image2 {
-        width: 350px;
-        height: 350px;
-        max-width: 85%;
+        max-width: 350px;
+    }
+    
+    .wrapper {
+        padding: 0 10px;
     }
 }
 
