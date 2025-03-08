@@ -381,12 +381,12 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 ## Skills
 
-* **Programming Languages**: Python, R, SQL, JavaScript, CSS, HTML
+* **Programming Languages**: Python, R, SQL, JavaScript, MATLAB
 * **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib
 * **Machine Learning**: Scikit-learn, TensorFlow, Deep Learning
-* **Data Visualization**: Tableau, Power BI, Matplotlib
+* **Data Visualization**: Tableau, Power BI, Plotly, ggplot2 
 * **AI/ML**: RAG, LLMs, Speech Recognition, APIs
-* **Tools**: Git, GitHub, Google Cloud Platform
+* **Tools**: Git, GitHub, VSCode, Google Cloud Platform
 
 ---
 
@@ -394,11 +394,11 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 ### 1. Voice-to-Voice LLM Assistant
 <img src="./assets/img/Voice-LLM.jpeg" class="project-image" alt="Voice Assistant">
-* **Description**: A conversational AI assistant that uses speech-to-text and text-to-speech capabilities, powered by Google's Gemini AI. Features real-time voice recording, processing, and witty responses in real time.
+* **Description**: A conversational AI assistant that uses speech-to-text and text-to-speech capabilities, powered by Python and Google's Gemini AI. Features real-time voice recording, processing, and witty responses in real time.
 
 * **Skills**: Python, Flask, React, Google Gemini AI, Speech Recognition, gTTS (Google Text to Speech)
 
-* **Key Features**: Real-time voice processing, natural dialogue, witty responses
+* **Key Features**: Real-time voice processing, natural dialogue, witty responses, LLM
 
 [View Live Project](https://voice-to-voice-llm.vercel.app){: .project-button} [View on GitHub](https://github.com/zanjeel/Voice-to-Voice-LLM){: .github-button}
 
@@ -407,13 +407,11 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 
-### 2. Automobile Predictive Analysis
+### 2. Advanced ML for Prediction in Automotive Systems
 <img src="./assets/img/Data-Analysis-Using-Machine-Learning.jpeg" class="project-image" alt="Automobile Analysis">
 * **Description**: Predictive analysis of automobile data using RStudio, focusing on price prediction and market trends.
 
-* **Skills**: R, Predictive Modeling, Data Visualization
-
-* **Key Features**: Real-time voice processing, natural dialogue, witty responses
+* **Skills**: R, Regression, KNN, Decision Trees, Random Forests
 
 [View Live Project](https://zanjeel.github.io/Automobile-Predictive-Data-Analysis-RStudio/Automobile-Price-Prediction.nb.html){: .project-button} [View on GitHub](https://github.com/zanjeel/Automobile-Predictive-Data-Analysis-RStudio){: .github-button}
 
@@ -426,7 +424,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 <img src="./assets/img/Predictive-ML-Hillingdon-Council-UK.jpeg" class="project-image" alt="Weather Prediction">
 * **Description**: Machine learning-based Mould prediction system developed for Hillingdon Council, UK, using various ML algorithms.
 
-* **Skills**: Python, Machine Learning, Time Series Analysis
+* **Skills**: Python, Tensorflow, Google Cloud Platform, LSTM, CNN, XGBoost, Time Series
 
 * **Key Features**: Multiple ML models comparison, accurate mould forecasting, interactive visualizations
 
@@ -439,9 +437,9 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 ### 4. RAG-NasaAI SpaceLovers
 <img src="./assets/img/NasaAI-proj-img.jpeg" class="project-image" alt="NASA AI">
-* **Description**: A Retrieval-Augmented Generation (RAG) system for space-related queries, integrating NASA's data with AI capabilities.
+* **Description**: A Retrieval-Augmented Generation (RAG) powered by vector search and LLM reasoning, optimizing knowledge retrieval and conversational AI.
 
-* **Skills**: Python, RAG, AI/ML, API Integration
+* **Skills**: Astra DB, Google Gemini API, Web Scraping, RAG, AI/ML, API Integration
 
 * **Key Features**: Real-time space data retrieval, accurate space information, interactive Q&A interface
 
@@ -468,8 +466,10 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 ### 6. Tableau Dashboards
-<img src="./assets/img/Customers-Data-Insights-Dashboard.jpeg" class="project-image" alt="Customer Insights Data Analysis">
+
 #### Customer Insight Analysis
+<img src="./assets/img/Customers-Data-Insights-Dashboard.jpeg" class="project-image" alt="Customer Insights Data Analysis">
+
 * **Description**: Interactive dashboard analyzing customer behavior and insights with interactive filters to visualise data by sales, gender and more.
 
 * **Skills**: Tableau, Data Visualization, Business Analytics
@@ -500,8 +500,8 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 ## Work Experience
 
 * **Chair @ Data Science at Brunel London (Feb 2024 - Dec 2024)**  
-  * Data Science Society at Brunel is a Leading Tech organisation increasing tech literacy amongst students.
-  * Here I led weekly Programming sessions for 50+ students in a range of programming languages including C++, Python, R, SQL and more.
+  * Data Science Society at Brunel is a Leading Tech organisation increasing data and tech literacy amongst students.
+  * Here I led weekly Programming sessions for 50+ students in a range of programming languages including Python, R, SQL and more.
 
 
 * **Developer Intern @ Risidio, London (Jan 2024 - Jun 2024)**  
@@ -520,16 +520,17 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 ## Transferable Experience
 
 * **Founder and Chair | Brunel Data Science**  
-  Mentored 300+ students, led 5+ hackathons  
+  Mentored 80+ students, led 5+ hackathons.  
 
 * **Tech Speaker | Innovia UK Women in STEM**  
-  Keynote Guest Speaker  
+  Keynote Guest Speaker.   
 
-* **Theatrical Actor | NUCES University**  
-  Selected from 500+ unis to perform for 1st lady of Pakistan  
+* **VP Dramatics & Theatrical Actor | NUCES University**  
+  Led 3 theatrical performances for 5,000+ attendees including the 1st lady of Pakistan.  
 
-* **VP Dramatics | NUCES University**  
-  Led 5+ theatrical performances for 5,000+ attendees  
+* **VP Robotics Society | A Levels - 2018**
+  Led a team of 40+ members on various robotics projects.
+
 
 ---
 
