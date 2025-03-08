@@ -443,7 +443,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 * **Key Features**: Real-time space data retrieval, accurate space information, interactive Q&A interface
 
-[View on GitHub](https://github.com/zanjeel/RAG-NasaAI-SpaceLovers){: .github-button}
+[View Live Project](https://rag-nasaai-spacelovers.onrender.com){: .project-button} [View on GitHub](https://github.com/zanjeel/RAG-NasaAI-SpaceLovers){: .github-button} 
 
 <hr class="project-separator">
 
@@ -510,7 +510,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
   * Built PowerPoint presentations to communicate findings to the CEO and 5+ dept., in non-technical, clear terms.
 
 
-* **Software Engineer Intern @ Devsinc (Jul 2021 - Oct 2021)**  
+* **Data Engineer Intern @ Devsinc (Jul 2021 - Oct 2021)**  
   * Designed an ETL pipeline to process ~10GB+ datasets from multiple sources (.txt, Excel .CSV). This reduced manual search time by 70%.
   * Developed a data retrieval took using Ruby that searched for the data input by the user from a 20+ years of past records and returned the needed data. it also visualised the past data over a user entered time period.
 
