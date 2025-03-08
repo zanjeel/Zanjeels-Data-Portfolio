@@ -382,7 +382,7 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 ## Skills
 
 * **Programming Languages**: Python, R, SQL, JavaScript, CSS, HTML
-* **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib, Sikit 
+* **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib
 * **Machine Learning**: Scikit-learn, TensorFlow, Deep Learning
 * **Data Visualization**: Tableau, Power BI, Matplotlib
 * **AI/ML**: RAG, LLMs, Speech Recognition, APIs
@@ -422,13 +422,13 @@ Here you'll find a collection of my projects in data analysis, machine learning,
 
 
 
-### 3. Weather Prediction for Hillingdon Council
+### 3. Mould Prediction for Hillingdon Council
 <img src="./assets/img/Predictive-ML-Hillingdon-Council-UK.jpeg" class="project-image" alt="Weather Prediction">
-* **Description**: Machine learning-based weather prediction system developed for Hillingdon Council, UK, using various ML algorithms.
+* **Description**: Machine learning-based Mould prediction system developed for Hillingdon Council, UK, using various ML algorithms.
 
 * **Skills**: Python, Machine Learning, Time Series Analysis
 
-* **Key Features**: Multiple ML models comparison, accurate weather forecasting, interactive visualizations
+* **Key Features**: Multiple ML models comparison, accurate mould forecasting, interactive visualizations
 
 [View Live Project](https://zanjeel.github.io/Weather-Prediction-MachineLearningAlgorithms-HillingdonCouncilUK/MachineLearningModelsforWeatherPrediction.html){: .project-button} [View on GitHub](https://github.com/zanjeel/Weather-Prediction-MachineLearningAlgorithms-HillingdonCouncilUK){: .github-button}
 
