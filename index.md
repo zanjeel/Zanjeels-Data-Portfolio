@@ -401,7 +401,7 @@ table th {
 
 📍 London, United Kingdom
 
-Hey, I'm Zanjeel. I'm a data lover and I thrive on using data for building the most innovative and latest, modern technologies. 
+Hey, I'm Zanjeel. I'm a Data Specialised Software Engineer with 3+ years of experience in software, data and AI across tech, health-tech, digital and IT industry sectors. I thrive on using data for building the most innovative and latest, modern technologies. 
 
 ## Education
 
@@ -416,7 +416,7 @@ Hey, I'm Zanjeel. I'm a data lover and I thrive on using data for building the m
 ## Skills
 
 * **Programming Languages**: Python, R, SQL, JavaScript, MATLAB
-* **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib
+* **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib, Docker
 * **Machine Learning**: Scikit-learn, TensorFlow, Deep Learning
 * **Data Visualization**: Tableau, Power BI, DAX Queries, ggplot2 
 * **AI/ML**: RAG, LLMs, Speech Recognition, APIs
@@ -469,7 +469,7 @@ Hey, I'm Zanjeel. I'm a data lover and I thrive on using data for building the m
 
 
 
-### 4. RAG-NasaAI SpaceLovers
+### 4. Retrieval Augmentation Generation (RAG) AI Chatbot 
 <img src="./assets/img/NasaAI-proj-img.jpeg" class="project-image" alt="NASA AI">
 * **Description**: A Retrieval-Augmented Generation (RAG) powered by vector search and LLM reasoning, optimizing knowledge retrieval and conversational AI.
 
@@ -562,18 +562,17 @@ Hey, I'm Zanjeel. I'm a data lover and I thrive on using data for building the m
 
 ## Work Experience
 
+**Python Software Engineer @ Quickmeds, Birmingham (May 2025 - Present)**  
+  QuickMeds, part of the Apothecare Ltd group with Franklin Pharmacy Birmingham, is a leading UK online healthcare provider serving 30K+ patients across 20+ countries, offering NHS and private prescriptions, reaching millions online.
+
 **Developer @ Risidio, London (Jul 2024 - Jan 2024)**  
   Risido is a top-tier, London based IT firm with global clientele across 4 continents. 
-  
- **President & Lead Developer @ Brunel Data Science, London (Dec 2024 - Sep 2023)**  
-  Data Science Society at Brunel is a Leading Tech organisation increasing data and tech literacy amongst students.
 
- **Junior Software Engineer (Data Analytics) @ Half Full Studio (Jan 2024 - Jan 2023)**  
-  Half Full Studio is a multinational creative technology firm, delivering innovative digital solutions, with a strong focus on design, storytelling, and user-centric development.
+ **Junior Software Engineer (Data Analytics) @ Half Full Studio, UAE (Jan 2024 - Jan 2023)**  
+  Half Full Studio is a leading Dubai-based digital creative studio operating across 10+ countries, delivering campaigns for 500+ high-profile brands. Reason for Leaving: Pursuing a Full-Time Masters in Data Science. 
 
- **Engineer Intern @ Devsinc (Oct 2022 - Jul 2022)**  
-  Devsinc is a premier software firm and partners of Amazon, Google & more.
-
+ **Engineer Intern @ Devsinc, USA (Oct 2022 - Jul 2022)**  
+  Devsinc is a premier software firm, serving 50+ global clients across 20+ countries, with £10M+ in annual revenue. Being partners of industry giants, like Amazon, Google, and Salesforce, they deliver innovative technology solutions.
 
 
 ---
@@ -586,16 +585,18 @@ Hey, I'm Zanjeel. I'm a data lover and I thrive on using data for building the m
 * **Dean's Leadership Medal** 
   Built 12 Hand Gesture Controlled Robotic Vehicles
 
+* **Chair, Brunel Data Science** 
+  Mentored 300+ students, led 5+ hackathons  
+
+* **Tech Speaker, Innovia UK Women in Tech**                          
+  Keynote Guest Speaker on Data and AI
+
 ---
 
-## Transferable Experience
+## Publications
 
-* **Tech Speaker Innovia UK Women in STEM**  
-  Keynote Guest Speaker.    
-
-* **Actor, Dramatics**
-  3 Theatrical Performance for 5000+ audiences.
-
+* **Masters Dissertation**
+  Evaluation of Machine Learning Models for Smart City Sensor Data Analysis across Edge AI and Centralised Architectures using Google Cloud Platform. https://doi.org/10.6084/m9.figshare.31043713
 
 ---
 
