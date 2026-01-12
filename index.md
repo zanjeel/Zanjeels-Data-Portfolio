@@ -424,6 +424,23 @@ Hey, I'm Zanjeel. I'm a Data Specialised Software Engineer with 3+ years of expe
 
 ---
 
+## Work Experience
+
+**Python Software Engineer @ Quickmeds, Birmingham (May 2025 - Present)**  
+  QuickMeds, part of the Apothecare Ltd group with Franklin Pharmacy Birmingham, is a leading UK online healthcare provider serving 30K+ patients across 20+ countries, offering NHS and private prescriptions, reaching millions online.
+
+**Developer @ Risidio, London (Jul 2024 - Jan 2024)**  
+  Risido is a top-tier, London based IT firm with global clientele across 4 continents. 
+
+ **Junior Software Engineer (Data Analytics) @ Half Full Studio, UAE (Jan 2024 - Jan 2023)**  
+  Half Full Studio is a leading Dubai-based digital creative studio operating across 10+ countries, delivering campaigns for 500+ high-profile brands. Reason for Leaving: Pursuing a Full-Time Masters in Data Science. 
+
+ **Engineer Intern @ Devsinc, USA (Oct 2022 - Jul 2022)**  
+  Devsinc is a premier software firm, serving 50+ global clients across 20+ countries, with £10M+ in annual revenue. Being partners of industry giants, like Amazon, Google, and Salesforce, they deliver innovative technology solutions.
+
+
+---
+
 ## Featured Projects
 
 ### 1. Voice-to-Voice LLM Assistant
@@ -555,25 +572,6 @@ Hey, I'm Zanjeel. I'm a Data Specialised Software Engineer with 3+ years of expe
 * **Key Features**: Interactive filters, customer segmentation, trend analysis
 
 [View Dashboard](https://public.tableau.com/app/profile/zanjeel.tariq.sahi/viz/CustomerInsightDataAnalysis/Dashboard){: .project-button}
-
-<hr class="project-separator">
-
----
-
-## Work Experience
-
-**Python Software Engineer @ Quickmeds, Birmingham (May 2025 - Present)**  
-  QuickMeds, part of the Apothecare Ltd group with Franklin Pharmacy Birmingham, is a leading UK online healthcare provider serving 30K+ patients across 20+ countries, offering NHS and private prescriptions, reaching millions online.
-
-**Developer @ Risidio, London (Jul 2024 - Jan 2024)**  
-  Risido is a top-tier, London based IT firm with global clientele across 4 continents. 
-
- **Junior Software Engineer (Data Analytics) @ Half Full Studio, UAE (Jan 2024 - Jan 2023)**  
-  Half Full Studio is a leading Dubai-based digital creative studio operating across 10+ countries, delivering campaigns for 500+ high-profile brands. Reason for Leaving: Pursuing a Full-Time Masters in Data Science. 
-
- **Engineer Intern @ Devsinc, USA (Oct 2022 - Jul 2022)**  
-  Devsinc is a premier software firm, serving 50+ global clients across 20+ countries, with £10M+ in annual revenue. Being partners of industry giants, like Amazon, Google, and Salesforce, they deliver innovative technology solutions.
-
 
 ---
 
