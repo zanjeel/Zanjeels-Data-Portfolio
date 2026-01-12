@@ -410,18 +410,6 @@ Hey, I'm Zanjeel. I'm a Data Specialised Software Engineer with 3+ years of expe
 | MSc., Data Science & Analytics | Brunel University London | Dec 2024 |
 | BSc., Computer Science | FAST University | Sep 2023 |
 
-
-
-
-## Skills
-
-* **Programming Languages**: Python, R, SQL, JavaScript, MATLAB
-* **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib, Docker
-* **Machine Learning**: Scikit-learn, TensorFlow, Deep Learning
-* **Data Visualization**: Tableau, Power BI, DAX Queries, ggplot2 
-* **AI/ML**: RAG, LLMs, Speech Recognition, APIs
-* **Tools**: Git, GitHub, VSCode, Google Cloud Platform
-
 ---
 
 ## Work Experience
@@ -572,6 +560,17 @@ Hey, I'm Zanjeel. I'm a Data Specialised Software Engineer with 3+ years of expe
 * **Key Features**: Interactive filters, customer segmentation, trend analysis
 
 [View Dashboard](https://public.tableau.com/app/profile/zanjeel.tariq.sahi/viz/CustomerInsightDataAnalysis/Dashboard){: .project-button}
+
+---
+
+## Skills
+
+* **Programming Languages**: Python, R, SQL, JavaScript, MATLAB
+* **Data Analysis**: Pandas, PySpark, NumPy, Matplotlib, Docker
+* **Machine Learning**: Scikit-learn, TensorFlow, Deep Learning
+* **Data Visualization**: Tableau, Power BI, DAX Queries, ggplot2 
+* **AI/ML**: RAG, LLMs, Speech Recognition, APIs
+* **Tools**: Git, GitHub, VSCode, Google Cloud Platform
 
 ---
 
